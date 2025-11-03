@@ -1,0 +1,17 @@
+/* Estilo del contenedor principal */
+.panel-container {
+    height: 100vh; /* O la altura que necesites */
+    width: 100%;
+}
+
+/* Estilo para el handle (divisor) */
+.resize-handle {
+    width: 2px; /* Ancho para que sea fácil de agarrar */
+    background-color: #ccc; /* Un color visible */
+    cursor: col-resize; /* Cursor de redimensionamiento horizontal */
+    flex-shrink: 0; /* Asegura que el handle no se encoja */
+}
+
+.resize-handle:hover {
+    background-color: #888;
+}

@@ -1,0 +1,30 @@
+.paragraph{
+    padding: 50px 25% 100px 25%;
+    font-family: "Playfair Display", serif;;
+}
+
+.paragraph_content {
+    padding: 15px 0 0 0;
+}
+.paragraph_header {
+    padding: 45px 0 0 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.paragraph_header2 {
+    padding: 18px 0 0px 0;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+}
+
+.paragraph_header2_left {
+    width: 60%;
+    text-align: left;
+}
+
+.paragraph_header2_right {
+    width: 39%;
+    text-align: right;
+}
